@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "非遗活动成效对账",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "县文化部门",
+    "学校统计员",
+    "审计人员"
+  ],
+  "states": [
+    "归集",
+    "去重",
+    "核验",
+    "封账",
+    "更正"
+  ],
+  "invariants": [
+    "身份去重",
+    "补办关系",
+    "来源谱系",
+    "报告更正"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-020-A",
+      "actor": "县文化部门",
+      "state": "归集"
+    },
+    {
+      "case_id": "09302-020-B",
+      "actor": "审计人员",
+      "state": "去重"
+    }
+  ],
+  "tags": [
+    "impact-reconciliation",
+    "attendance-lineage"
+  ]
+}
